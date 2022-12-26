@@ -19,7 +19,7 @@ public class EagerSun {
     /**
      * 通过get方法使别人获取
      */
-    public EagerSun getSun() {
+    public static EagerSun getSun() {
         return SUN;
     }
 }
