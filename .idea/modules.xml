@@ -3,8 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.单例模式/1.单例模式.iml" filepath="$PROJECT_DIR$/1.单例模式/1.单例模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15.责任链/15.责任链.iml" filepath="$PROJECT_DIR$/15.责任链/15.责任链.iml" />
       <module fileurl="file://$PROJECT_DIR$/2.原型模式/2.原型模式.iml" filepath="$PROJECT_DIR$/2.原型模式/2.原型模式.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.工厂方法/3.工厂方法.iml" filepath="$PROJECT_DIR$/3.工厂方法/3.工厂方法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.抽象工厂/4.抽象工厂.iml" filepath="$PROJECT_DIR$/4.抽象工厂/4.抽象工厂.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.建造者/5.建造者.iml" filepath="$PROJECT_DIR$/5.建造者/5.建造者.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6.门面/6.门面.iml" filepath="$PROJECT_DIR$/6.门面/6.门面.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7.组合/7.组合.iml" filepath="$PROJECT_DIR$/7.组合/7.组合.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8.装饰器/8.装饰器.iml" filepath="$PROJECT_DIR$/8.装饰器/8.装饰器.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9.适配器/9.适配器.iml" filepath="$PROJECT_DIR$/9.适配器/9.适配器.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/design-patterns.iml" filepath="$PROJECT_DIR$/.idea/design-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.工厂方法/简单工厂/简单工厂.iml" filepath="$PROJECT_DIR$/3.工厂方法/简单工厂/简单工厂.iml" />
     </modules>
