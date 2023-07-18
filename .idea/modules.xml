@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.单例模式/1.单例模式.iml" filepath="$PROJECT_DIR$/1.单例模式/1.单例模式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11.代理/11.代理.iml" filepath="$PROJECT_DIR$/11.代理/11.代理.iml" />
       <module fileurl="file://$PROJECT_DIR$/15.责任链/15.责任链.iml" filepath="$PROJECT_DIR$/15.责任链/15.责任链.iml" />
       <module fileurl="file://$PROJECT_DIR$/2.原型模式/2.原型模式.iml" filepath="$PROJECT_DIR$/2.原型模式/2.原型模式.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.工厂方法/3.工厂方法.iml" filepath="$PROJECT_DIR$/3.工厂方法/3.工厂方法.iml" />
