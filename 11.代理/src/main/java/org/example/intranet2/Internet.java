@@ -1,3 +1,5 @@
+package org.example.intranet2;
+
 /**
  * @author ldd
  * 网络接口，功能是接入互联网

@@ -1,4 +1,4 @@
-package gpt;
+package org.example.demo4;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -13,7 +13,7 @@ interface Subject {
 class RealSubject implements Subject {
     @Override
     public void request() {
-        System.out.println("RealSubject: Handling request.");
+        System.out.println("发出request请求");
     }
 }
 
@@ -29,23 +29,15 @@ class ProxyHandler1 implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        preRequest1();
+        System.out.println("前置普通日志");
         Object result;
         if (nextHandler != null) {
             result = nextHandler.invoke(realSubject, method, args);
         } else {
             result = method.invoke(realSubject, args);
         }
-        postRequest1();
+        System.out.println("后置普通日志");
         return result;
-    }
-
-    private void preRequest1() {
-        System.out.println("ProxyHandler1: Preparing for request.");
-    }
-
-    private void postRequest1() {
-        System.out.println("ProxyHandler1: Finalizing request.");
     }
 }
 
@@ -59,23 +51,14 @@ class ProxyHandler2 implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        preRequest2();
+        System.out.println("前置时间日志");
         Object result = method.invoke(realSubject, args);
-        postRequest2();
+        System.out.println("后置时间日志");
         return result;
     }
-
-    private void preRequest2() {
-        System.out.println("ProxyHandler2: Preparing for request.");
-    }
-
-    private void postRequest2() {
-        System.out.println("ProxyHandler2: Finalizing request.");
-    }
 }
-
 // 客户端代码
-public class Client {
+public class Client1 {
     public static void main(String[] args) {
         // 创建实际主题对象
         Subject realSubject = new RealSubject();

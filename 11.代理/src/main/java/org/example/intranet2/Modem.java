@@ -1,3 +1,5 @@
+package org.example.intranet2;
+
 /**
  * @author ldd
  * 光猫，拨号上网前验证密码

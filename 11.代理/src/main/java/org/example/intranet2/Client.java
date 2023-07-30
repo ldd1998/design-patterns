@@ -1,3 +1,5 @@
+package org.example.intranet2;
+
 /**
  * @author ldd
  * 客户端

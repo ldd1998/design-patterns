@@ -1,4 +1,4 @@
-package gpt;
+package demo4;
 
 /**
  * 建造者模式被用来处理那些含有复杂构造过程的情况。

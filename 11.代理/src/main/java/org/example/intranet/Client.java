@@ -1,4 +1,4 @@
-package intranet;
+package org.example.intranet;
 
 import java.lang.reflect.Proxy;
 

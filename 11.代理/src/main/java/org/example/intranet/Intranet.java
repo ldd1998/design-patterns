@@ -1,4 +1,4 @@
-package intranet;
+package org.example.intranet;
 /**
  * @author ldd
  * 局域网上网接口
