@@ -17,10 +17,6 @@ class client{
     }
 }
 
-/**
- * 直接增强
- * 重复代码
- */
 class client1{
     public static void main(String[] args) {
         ISubject subject = new SubjectImpl();
@@ -30,10 +26,6 @@ class client1{
     }
 }
 
-/**
- * 继承的方式增强
- * 会引入非常多子类及重写很多方法
- */
 class SubjectImplSub extends SubjectImpl{
     public void request(){
         System.out.println("前置日志");
